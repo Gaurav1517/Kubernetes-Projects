@@ -1,11 +1,6 @@
-Sure! Below is the full documentation for resolving the `ImagePullBackOff` error using the `docker-config.json` method in Kubernetes, which includes all the steps and the `README.md` content.
-
----
-
-### Full `README.md` Documentation:
+# Kubernetes ImagePullBackOff Troubleshooting Guide
 
 ```markdown
-# Kubernetes ImagePullBackOff Troubleshooting Guide
 
 This document provides a step-by-step guide to resolve the `ImagePullBackOff` error in Kubernetes by configuring a Docker registry secret using a custom `docker-config.json` file for authentication with Docker Hub.
 
