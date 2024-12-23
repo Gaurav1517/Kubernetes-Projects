@@ -1,10 +1,6 @@
 # Kubernetes ImagePullBackOff Troubleshooting Guide
 
-```markdown
-
 This document provides a step-by-step guide to resolve the `ImagePullBackOff` error in Kubernetes by configuring a Docker registry secret using a custom `docker-config.json` file for authentication with Docker Hub.
-
----
 
 ## Prerequisites
 Before proceeding with this guide, ensure that the following prerequisites are met:
@@ -12,8 +8,6 @@ Before proceeding with this guide, ensure that the following prerequisites are m
 - Access to the Kubernetes server where you will configure the secret.
 - Docker Hub account with credentials (username and token).
 - Your Kubernetes setup can pull images from a private registry.
-
----
 
 ## Steps to Resolve `ImagePullBackOff` Error
 
